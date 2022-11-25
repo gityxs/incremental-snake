@@ -272,6 +272,7 @@ var cnRegReplace = new Map([
     [/^Next at (.+) points$/, '下一个在 $1 点数'],
     [/^World size: (.+) pixels$/, '世界尺寸：$1 像素'],
     [/^Speed: (.+) move per second$/, '速度：每秒移动 $1 次'],
+    [/^Speed: (.+) moves per second$/, '速度：每秒移动 $1 次'],
     [/^Snake length: (.+) pixels$/, '蛇的长度：$1 像素'],
 	[/^([\d\.]+)\/sec$/, '$1\/秒'],
 	[/^([\d\.,]+)\/sec$/, '$1\/秒'],
